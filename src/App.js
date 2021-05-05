@@ -1,9 +1,12 @@
+import React from 'react';
+import Header from './components/Layout/Header';
 
 function App() {
   return (
-    <div>
-      <p>Lets get started</p>
-    </div>
+    <>
+      <Header />
+
+    </>
   );
 }
 
