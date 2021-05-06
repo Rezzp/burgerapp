@@ -1,19 +1,19 @@
-.section{
+/*.section{
     width:50%;
     background-color:none;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     color:rgb(14, 13, 13);
     margin-top:auto;
-    margin-bottom:60px;
+    margin-bottom:0px;
     position:absolute;
-    top:65%;
+    top:70%;
     left:50%;
     transform: translateX(-50%);    
-    padding-bottom:50px;
-}
+    padding-bottom:10px;
+} */
 
-.section h1{    
+ .menu{    
     text-align: center;
     margin:auto auto;
     padding:25px;
@@ -21,20 +21,21 @@
     background-color: rgb(202, 97, 11);
 }
 
-.section ul{
+ ul{
     margin-top:0px;
     margin-left: 0px;
     margin-bottom: 40px;
     padding:40px 0px;      
 }
 
+/*
 .items{
     position:relative;
     margin:0px;    
     padding:0px 30px;
     border-bottom: 0.25px solid rgb(102, 102, 102);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(255, 253, 253);
     border-radius:15px ;
 }
 
@@ -61,4 +62,4 @@
     font-weight: bold;
     float:right;
 }
-
+*/

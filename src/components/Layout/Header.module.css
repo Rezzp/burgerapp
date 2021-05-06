@@ -4,11 +4,12 @@
     left: 0;
     width: 100%;
     height: 5rem;
-    background-color: #df6a30;
+    background-color: #b35110;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10%;
+    color:#fff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     z-index: 10;
   }
@@ -16,7 +17,7 @@
  
   .main-image {
     width: 100%;
-    height: 30rem;
+    height: 35rem;
     z-index: 0;
     overflow: hidden;
   }

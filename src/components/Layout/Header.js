@@ -3,7 +3,7 @@ import React from 'react';
 import headerimage from '../../assets/image1.jpg';
 import styles from './Header.module.css';
 import HeaderCartButton from './HeaderCartButton';
-import HeaderDescription from './HeaderDescription';
+
 
 const Header = (props) => {
 
