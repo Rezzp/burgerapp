@@ -3,10 +3,12 @@
     max-width: 55rem;
     width: 95%;
     margin: auto auto;
-    position: fixed;
-    top:30%;
+    position:absolute;
+    top:25%;
     left:50%;
-    transform:translate(-50%, 0%);
+    transform:translateX(-50%);
+    
+    
     background-color: #363636ec;
     color: white;
     border-radius: 14px;
@@ -21,6 +23,6 @@
   }
 
   .summary p {
-      font-size: 130%;
+      font-size: 120%;
       margin: 35px 50px;
   }

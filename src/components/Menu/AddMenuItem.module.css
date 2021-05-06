@@ -1,0 +1,45 @@
+.qty{
+    text-decoration: none;
+    width:40px;
+    height:40px;
+    font-size: 100%;
+    text-align: center;
+    border:1px solid rgb(77, 77, 77);
+    resize: none;
+    padding:0px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right: 10px;
+    margin-left:15px;
+
+}
+
+.minus, .plus{
+    width:40px;
+    height:40px;
+    font-size: 100%;
+    text-align: center;
+    border:1px solid rgb(77, 77, 77);
+    background-color: rgb(204, 204, 204);
+    padding:0px;
+    margin:10px 2px;
+}
+
+.minus:hover,
+.plus:hover {
+    background-color: rgb(187, 187, 187);
+}
+
+.button{
+    font-size:110%;
+    font:bold;
+    margin-top: 10px;
+    padding:6px 40px;
+    color:lightgrey;
+    background-color: rgb(99, 4, 4);
+    border-radius:30px;
+}
+
+.button:hover {
+    background-color: rgb(65, 4, 4);
+}

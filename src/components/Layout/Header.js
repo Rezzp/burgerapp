@@ -12,7 +12,6 @@ const Header = (props) => {
             <header className={styles.header}>
                 <h1>Seafoods-To-Go</h1>
                 <HeaderCartButton />
-                <HeaderDescription />
             </header>
             <div className={styles['main-image']}>
                 <img src={headerimage} alt='Various Food Items' />
