@@ -6,7 +6,7 @@
     color:rgb(14, 13, 13);
     margin-top:auto;
     margin-bottom:0px;
-    position:absolute;
+    position:relative;
     top:70%;
     left:50%;
     transform: translateX(-50%);    

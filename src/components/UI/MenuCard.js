@@ -3,9 +3,10 @@ import styles from './MenuCard.module.css';
 const MenuCard = props => {
 
     return (
-        <div className={styles.card}>
+
+        <section className={styles.card}>
             {props.children}
-        </div>
+        </section>
     );
 };
 export default MenuCard;
