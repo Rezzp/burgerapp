@@ -1,6 +1,6 @@
 .items{
     position:relative;      
-    padding:10px 30px;
+    padding:10px 0px;
     width:100%;
     border-bottom: 0.25px solid rgb(102, 102, 102);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -14,7 +14,8 @@
 .image{
     display:inline-block;
     margin:5px;
-    padding:3px;    
+    padding:3px 15px;  
+    
 }
 
 .frame{

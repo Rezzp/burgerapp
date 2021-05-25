@@ -1,9 +1,9 @@
 .qty{
     text-decoration: none;
     width:40px;
-    height:40px;
+    height:30px;
     font-size: 100%;
-    text-align: center;
+    text-align: right;
     border:1px solid rgb(77, 77, 77);
     resize: none;
     padding:0px;
@@ -34,6 +34,7 @@
     font-size:110%;
     font:bold;
     margin-top: 10px;
+    margin-left: 10px;
     padding:6px 40px;
     color:lightgrey;
     background-color: rgb(99, 4, 4);
