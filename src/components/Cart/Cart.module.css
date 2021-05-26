@@ -2,7 +2,7 @@
     list-style: none;
     margin: 0;
     padding: 0px;
-    max-height: 20rem;
+    max-height: 8rem;
     overflow: hidden;
     display:block;
     border-bottom: 0.5px solid grey;
@@ -22,11 +22,12 @@
   .ulist{
     margin:10px 0px;
     padding:0px;
+  
   }
   
  .orderitem{
     width:100%;
-    padding:20px;
+    margin:10px;
       
   }
 .inline{
@@ -39,18 +40,40 @@
 }
 
 .itemname{
-  padding-left:10px;
+  padding-left:30px;
   padding-right: 30px;
   width:30%;
   font-size:125%;
   text-align: left;
 }
 
-.itemqty{
-  padding-left:10px;
-  padding-right: 30px;
+.plus{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 155%;
   width:2%;
-  text-align: left;
+  color: #8a2b06;
+  border:none;
+  background-color: #fff;
+  text-align: center;
+}
+.minus{
+  padding-left: 10px;
+  padding-right: 25px;
+  font-size: 185%;
+  width:2%;
+  color: #8a2b06;
+  border:none;
+  background-color: #fff;
+  text-align: center;
+}
+
+.minus:hover{ 
+  font-size: 230%;
+}
+
+.plus:hover{ 
+  font-size: 200%;
 }
 
 .itemqnty{
@@ -74,9 +97,9 @@
 }
 
 .totalamt{
-  width:20%;
+  width:15%;
   font-size:110%;
-  text-align: left;
+  text-align: center;
 }
 
 
@@ -87,6 +110,8 @@
      font-weight: bold;
      font-size:110%; 
      width:15%;    
+     margin-right: 5px;
+     margin-top: 5px;
   }
 
   .deletebtn:hover{
@@ -116,6 +141,7 @@
     padding: 0.5rem 2rem;
     border-radius: 25px;
     margin-left: 1rem;
+    margin-right:20px;
   }
   
   .actions button:hover,
@@ -129,6 +155,7 @@
     color: #8a2b06;
     margin-bottom: 25px;
     margin-top:15px;
+    margin-right:25px;
   }
   
   .actions .button {

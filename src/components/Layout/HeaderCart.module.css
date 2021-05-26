@@ -1,19 +1,22 @@
 .button {
     position:fixed;
-    right: 12%;
+    top:3%;
+    right: 5%;
     cursor: pointer;
     font: inherit;
     border: none;
-    background-color: #dd7539;
-    color: white;
-    padding: 0.75rem 3rem;
+    background-color: #b35110;
+    color: rgb(250, 250, 250);
+    padding: 0px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    border-radius: 25px;
     font-weight: bold;
   }
   
+  .cartname{
+    display:none;
+  }
+
   .button:hover,
   .button:active {
     background-color: #c06530;
@@ -21,16 +24,16 @@
   
   .icon {
     width: 1.35rem;
-    height: 1.35rem;
-    margin-right: 0.5rem;
+    height: 1.34rem;
+    margin: 0px;
+    padding:0px;
+    
   }
   
   .badge {
-    background-color: #aa410c;
-    padding: 0.25rem 1rem;
-    border-radius: 25px;
-    margin-left: 1rem;
-    font-weight: bold;
+    background-color: #b35110;
+    padding-top: 10px;
+    
   }
   
   .button:hover .badge,
@@ -58,4 +61,54 @@
     100% {
       transform: scale(1);
     }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .button {
+      position:fixed;
+      right: 12%;
+      cursor: pointer;
+      font: inherit;
+      border: none;
+      background-color: #dd7539;
+      color: white;
+      padding: 0.75rem 3rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 25px;
+      font-weight: bold;
+    }
+    
+    .button:hover,
+    .button:active {
+      background-color: #c06530;
+    }
+    .cartname{
+      display:block;
+    }
+
+    .icon {
+      width: 1.35rem;
+      height: 1.35rem;
+      margin-right: 0.5rem;
+    }
+    
+    .badge {
+      background-color: #aa410c;
+      padding: 0.25rem 1rem;
+      border-radius: 25px;
+      margin-left: 1rem;
+      font-weight: bold;
+    }
+    
+    .button:hover .badge,
+    .button:active .badge {
+      background-color: #8b3801;
+    }
+    
+    .bump {
+      animation: bump 300ms ease-out;
+    }
+
   }

@@ -20,6 +20,7 @@ const MenuList = () => {
 
     const menuItem = MealItems.map(item => <MenuItems
         key={item.id}
+        id={item.id}
         name={item.name}
         image={item.image}
         description={item.description}

@@ -1,33 +1,41 @@
-import React, { useContext } from 'react';
-import { GlobalContext } from '../../store/GlobalContext';
+import React, { useContext, useState } from 'react';
+import { GlobalContext } from '../../store/GlobalProvider';
 
 import styles from './AddMenuItem.module.css';
 
-const AddMenuItem = () => {
+const AddMenuItem = (props) => {
 
-    const context = useContext(GlobalContext);
+    const { items, addItemToCartHandler } = useContext(GlobalContext);
     //console.log(context);
 
-    return (
+    const [qty, setQty] = useState(0);
 
-        <form>
+    const newItem = {
+        id: props.id,
+        name: props.itemname,
+        quantity: qty,
+        price: props.price
+    }
+
+    const onSubmitHandler = (e) => {
+        e.preventDefault();
+        addItemToCartHandler(newItem);
+    };
+
+    return (
+        <form className={styles.formcontrols} onSubmit={onSubmitHandler}>
             <input className={styles.qty}
                 type="number"
                 id="qty"
                 min='0'
                 max='5'
                 maxLength='1'
-                defaultValue='0'
+                value={qty}
+                onChange={(e) => setQty(e.target.value)}
             />
             <button className={styles.button}>Add</button>
-
         </form>
-
-
     );
 };
 
 export default AddMenuItem;
-
-/* <button className={styles.plus}>+</button>
-   <button className={styles.minus}>-</button> <br></br> */
